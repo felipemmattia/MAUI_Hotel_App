@@ -5,12 +5,12 @@
              Title="Sobre">
     <VerticalStackLayout>
         <Label 
-            Text="desenvolvido por: Murilo Moreira de Mattia"
+            Text="Desenvolvido por: Felipe Moreira de Mattia"
             VerticalOptions="Center" 
             HorizontalOptions="Start" 
             Margin="5"/>
         <Label
-            Text="ano de desenvolvimento: 2025"
+            Text="Ano de desenvolvimento: 2025"
             VerticalOptions="Center"
             HorizontalOptions="Start"
             Margin="5"/>
