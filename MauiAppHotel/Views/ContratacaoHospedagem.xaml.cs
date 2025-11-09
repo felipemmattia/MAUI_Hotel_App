@@ -45,6 +45,13 @@ public partial class ContratacaoHospedagem : ContentPage
             await DisplayAlert("Ops", ex.Message, "OK");
         }
     }
+<<<<<<< HEAD
+=======
+    private async void btSobre_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Sobre());
+    }
+>>>>>>> 8654fe5ff262433f08b9cc596d495a9d3d41769d
 
     private void dtpck_checkin_DateSelected(object sender, DateChangedEventArgs e)
     {
@@ -54,9 +61,15 @@ public partial class ContratacaoHospedagem : ContentPage
 
         dtpck_checkout.MinimumDate = data_selecionada_checkin.AddDays(1);
         dtpck_checkout.MaximumDate = data_selecionada_checkin.AddMonths(6);
+<<<<<<< HEAD
     }
     private void OnVoltarClicked(object sender, EventArgs e)
     {
         Navigation.PopAsync();
     }
+=======
+
+    }
+    
+>>>>>>> 8654fe5ff262433f08b9cc596d495a9d3d41769d
 }

@@ -4,7 +4,11 @@
              x:Class="MauiAppHotel.Views.ContratacaoHospedagem"
              Title="ContratacaoHospedagem"
              NavigationPage.HasNavigationBar="False"
+<<<<<<< HEAD
              BackgroundColor="{StaticResource Gray950}">
+=======
+             BackgroundColor="{StaticResource Gray100}">
+>>>>>>> 8654fe5ff262433f08b9cc596d495a9d3d41769d
 
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10"
@@ -15,8 +19,17 @@
                FontSize="50"
                TextColor="{StaticResource Primary}" />
 
+<<<<<<< HEAD
         <Frame Padding="10">
             <VerticalStackLayout>
+=======
+
+        
+        <Frame Padding="10">
+            <VerticalStackLayout>
+             
+            
+>>>>>>> 8654fe5ff262433f08b9cc596d495a9d3d41769d
                 <Grid RowDefinitions="Auto, Auto"
                       ColumnDefinitions="*, *, 2*">
 
@@ -86,6 +99,7 @@
                         </HorizontalStackLayout>
                     </VerticalStackLayout>
                 </Frame>
+<<<<<<< HEAD
                 <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                     <Button Text="Voltar"
                             HorizontalOptions="StartAndExpand"
@@ -104,6 +118,17 @@
                 </HorizontalStackLayout>
             </VerticalStackLayout>
         </Frame>
+=======
+
+                <Button Text="Avançar" Clicked="Button_Clicked" />
+                
+                <Button Text="Sobre" Clicked="btSobre_Clicked" Margin="0,5,0,0" />
+                
+            </VerticalStackLayout>
+            
+        </Frame>
+        
+>>>>>>> 8654fe5ff262433f08b9cc596d495a9d3d41769d
 
     </VerticalStackLayout>
 

@@ -36,7 +36,11 @@ namespace MauiAppHotel
         {
             InitializeComponent();
 
+<<<<<<< HEAD
             MainPage = new NavigationPage(new Inicio());
+=======
+            MainPage = new NavigationPage(new Views.ContratacaoHospedagem());
+>>>>>>> 8654fe5ff262433f08b9cc596d495a9d3d41769d
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
@@ -44,7 +48,11 @@ namespace MauiAppHotel
             var window = base.CreateWindow(activationState);
 
             window.Width = 400;
+<<<<<<< HEAD
             window.Height = 600;
+=======
+            window.Height = 650;
+>>>>>>> 8654fe5ff262433f08b9cc596d495a9d3d41769d
 
             return window;
         }

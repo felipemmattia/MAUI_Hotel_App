@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Sobre"
+<<<<<<< HEAD
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="{StaticResource Gray950}">
 
@@ -25,5 +26,31 @@
            Margin="5,10,5,5"
            BackgroundColor="{StaticResource Primary}"
            Clicked="OnVoltarInicioClicked"/>
+=======
+             Title="Sobre">
+    <VerticalStackLayout>
+        <Label 
+            Text="Desenvolvido por: Felipe Moreira de Mattia"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" 
+            Margin="5"/>
+        <Label
+            Text="Ano de desenvolvimento: 2025"
+            VerticalOptions="Center"
+            HorizontalOptions="Start"
+            Margin="5"/>
+        <Label
+            Text="Versão 1.0"
+            VerticalOptions="Center"
+            HorizontalOptions="Start"
+            Margin="5"/>
+
+
+
+        <Button
+            Text="Voltar"
+            VerticalOptions="Center"
+            Clicked="btBack_clicked" />
+>>>>>>> 8654fe5ff262433f08b9cc596d495a9d3d41769d
     </VerticalStackLayout>
 </ContentPage>

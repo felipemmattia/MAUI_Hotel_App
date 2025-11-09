@@ -69,6 +69,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+<<<<<<< HEAD
 	  <Compile Update="agradecimento.xaml.cs">
 	    <DependentUpon>Agradecimento.xaml</DependentUpon>
 	  </Compile>
@@ -87,6 +88,8 @@
 	  <MauiXaml Update="Inicio.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+=======
+>>>>>>> 8654fe5ff262433f08b9cc596d495a9d3d41769d
 	  <MauiXaml Update="Sobre.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

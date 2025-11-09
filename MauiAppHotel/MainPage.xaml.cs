@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 ﻿namespace MauiAppHotel
+=======
+﻿using System.Threading.Tasks;
+
+namespace MauiAppHotel
+>>>>>>> 8654fe5ff262433f08b9cc596d495a9d3d41769d
 {
     public partial class MainPage : ContentPage
     {
